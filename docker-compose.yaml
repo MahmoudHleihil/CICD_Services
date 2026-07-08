@@ -15,7 +15,7 @@ services:
   # 2. .NET 10 Weather Backend
   dotnet-service:
     build:
-      context: ./DotNetService
+      context: ./dotnet-service
       dockerfile: Dockerfile
     container_name: dotnet-app
     ports:

@@ -15,7 +15,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        service: [nodejs-service, python-service, DotNetService]
+        service: [nodejs-service, python-service, dotnet-service]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
